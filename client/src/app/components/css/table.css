@@ -1,0 +1,20 @@
+.box-content .responsive {
+  width: 100%;
+  overflow-x: scroll;
+}
+
+.responsive table.tb-style {
+  width: 100%;
+  color: #000;
+}
+
+.responsive table.tb-style thead {
+  color: #fff;
+}
+
+@media screen and (min-width: 1024px) {
+  .box-content .responsive {
+    width: 100%;
+    overflow-x: hidden;
+  }
+}
